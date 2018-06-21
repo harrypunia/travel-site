@@ -8,7 +8,10 @@
         background: $mainOrange;
     }
     &--large {
-        font-size: 1.25rem;
         padding: 1.1rem 1.9rem;
+        
+        @mixin phone {
+            font-size: 1.25rem;
+        }
     }
 }
