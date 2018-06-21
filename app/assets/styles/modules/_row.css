@@ -20,6 +20,11 @@
             }
         }
 
+        &__medium-6 {
+            float: left;
+            width: 50%;
+        }
+
         &__medium-8 {
             float: left;
             width: 66.66%;
@@ -28,6 +33,14 @@
                 width: 63%;
             }
         }
+    }
+    
+    &--gutters-large > div {
+        padding-right: 100px;
+    }
+    
+    &--gutters-large {
+        margin-right: -100px;
     }
 
     &--gutters {
