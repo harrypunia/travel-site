@@ -12,16 +12,29 @@
 </head>
 
 <body>
-    <header>
-        <img src="assets/images/icons/clear-view-escapes.svg">
-        <a href="#" class="btn">Get in Touch</a>
-        <nav>
-            <ul>
-                <li><a href="#our-beginning">Our Beginning</a></li>
-                <li><a href="#features">Features</a></li>
-                <li><a href="#testimonials">Testimonials</a></li>
-            </ul>
-        </nav>
+    <header class="header">
+        <div class="wrapper">
+            <div class="header__logo">
+                <div class="icon icon--clear-view-escapes header__logo__graphic">Clear View Escapes</div>
+            </div>
+            <div class="header__menu-icon">
+                <div class="header__menu-icon__bar"></div>
+                <div class="header__menu-icon__bar"></div>
+                <div class="header__menu-icon__bar"></div>
+            </div>
+            <div class="header__menu-content">
+                <div class="header__button-container">
+                    <a href="#" class="btn">Get in Touch</a>
+                </div>
+                <nav class="primary-nav primary-nav--right">
+                    <ul>
+                        <li><a href="#our-beginning">Our Beginning</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
     </header>
 
     <div class="large-hero">
@@ -46,7 +59,9 @@
         <h2 class="headline headline--center headline--light headline--b-margin-small">The first trip we planned <strong>was our own.</strong></h2>
         <h3 class="headline headline--center headline--orange headline--small headline--narrow headline--light haedline--b-margin-large">Ever since, we&rsquo;ve been working to make travel <strong>better for everyone.</strong></h3>
         <div class="wrapper wrapper--medium wrapper--b-margin">
-            <img media="(min-width: 976px) 976px, 100vw" srcset="assets/images/first-trip-low-res.jpg 565w, assets/images/first-trip.jpg 976w, assets/images/first-trip-hi-dpi.jpg 1952w" alt="Couple walking down a street.">
+            <picture>
+                <img media="(min-width: 976px) 976px, 100vw" srcset="assets/images/first-trip-low-res.jpg 565w, assets/images/first-trip.jpg 976w, assets/images/first-trip-hi-dpi.jpg 1952w" alt="Couple walking down a street.">
+            </picture>
         </div>
 
         <div class="row row--gutters">
@@ -109,7 +124,9 @@
                 <div class="row__large-4">
                     <div class="testimonials">
                         <div class="testimonials__image">
-                            <img sizes="160px" srcset="assets/images/testimonial-jane.jpg 160w, assets/images/testimonial-jane-hi-dpi 320w.jpg" alt="Jane Doe">
+                            <picture>
+                                <img sizes="160px" srcset="assets/images/testimonial-jane.jpg 160w, assets/images/testimonial-jane-hi-dpi.jpg 320w" alt="Jane Doe">
+                            </picture>
                         </div>
                         <h4 class="testimonials__title">Jane Doe</h4>
                         <h3 class="testimonials__subtitle">9 Time Escaper</h3>
@@ -119,7 +136,9 @@
                 <div class="row__large-4">
                     <div class="testimonials">
                         <div class="testimonials__image">
-                            <img sizes="160px" srcset="assets/images/testimonial-john.jpg 160w, assets/images/testimonial-john-hi-dpi.jpg 320w" alt="John Smith.">
+                            <picture>
+                                <img sizes="160px" srcset="assets/images/testimonial-john.jpg 160w, assets/images/testimonial-john-hi-dpi.jpg 320w" alt="John Smith.">
+                            </picture>
                         </div>
                         <h4 class="testimonials__title">John Smith(Jhon)</h4>
                         <h3 class="testimonials__subtitle">4 Time Escaper</h3>
@@ -129,7 +148,9 @@
                 <div class="row__large-4">
                     <div class="testimonials testimonials--last">
                         <div class="testimonials__image">
-                            <img sizes="160px" srcset="assets/images/testimonial-cat.jpg 160w, assets/images/testimonial-cat-hi-dpi.jpg 320w" alt="Cat McKitty">
+                            <picture>
+                                <img sizes="160px" srcset="assets/images/testimonial-cat.jpg 160w, assets/images/testimonial-cat-hi-dpi.jpg 320w" alt="Cat McKitty">
+                            </picture>
                         </div>
                         <h4 class="testimonials__title">Cat McKitty</h4>
                         <h3 class="testimonials__subtitle">6 Time Escaper</h3>
@@ -145,6 +166,8 @@
             <p><span class="site-footer__text">Copyright &copy; 2016 Clear View Escapes. All rights reserved.</span> <a href="#" class="btn btn--orange">Get in Touch</a></p>
         </div>
     </footer>
+
+    <script src="/temp/scripts/App.js"></script>
 </body>
 
 </html>
