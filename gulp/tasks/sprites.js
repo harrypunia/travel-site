@@ -9,7 +9,7 @@ var config = {
             sprite: 'sprite.svg', //Changes file name of the sprite file.
             render: {
                 css: {
-                    template: './gulp/templates/sprite.css' //Creates a css file for the sprite, in which variables are used to automatically define the content of the file.
+                    template: './gulp/template/sprite.css' //Creates a css file for the sprite, in which variables are used to automatically define the content of the file.
                 }
             }
         }
